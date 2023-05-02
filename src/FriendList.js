@@ -7,7 +7,7 @@ import Profile from "./Profile";
 const bottomSpace = getBottomSpace();
 
 export default (props) => {
-  return (
+  return props.isOpened && (
     <ScrollView showsVerticalScrollIndicator={false} contentContainerStyle={{ paddingBottom: bottomSpace }}>
       {props.data.map((item, idx) => (
         <View key={idx}>
