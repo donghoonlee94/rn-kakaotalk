@@ -1,18 +1,18 @@
 import React from 'react';
-import { Text, TouchableOpacity, View } from 'react-native';
+import { Text, View } from 'react-native';
 import { Ionicons } from '@expo/vector-icons'; 
 
-const IconButton = ({ name, bgColor }) => {
+const IconButton = (props) => {
   return (
-    <TouchableOpacity hitSlop={{ top: 15, bottom: 15 }} style={{ paddingHorizontal: 6, backgroundColor: bgColor }}>
-      <Ionicons name={name} size={24} color="black" />
-    </TouchableOpacity>
+    <View style={{ paddingHorizontal: 6 }}>
+      <Ionicons name={props.name} size={24} color="black" />
+    </View>
   )
 }
 
 const Header = () => {
   return (
-    <View style={{flexDirection:"row", justifyContent:"space-between", paddingVertical: 10}}>
+    <View style={{flexDirection:"row",justifyContent:"space-between", paddingVertical: 10}}>
       <Text style={{fontSize: 22, fontWeight:"bold"}}>친구</Text>
 
       <View style={{flexDirection:"row"}}>
