@@ -3,7 +3,7 @@
  */
 
 export const myProfile = {
-  uri: "https://reactnative.dev/img/tiny_logo.png'",
+  uri: "https://png.pngtree.com/thumb_back/fh260/back_pic/03/54/06/62579986dba62df.jpg",
   name: "지은",
   introduction: "inspiring day",
 };
