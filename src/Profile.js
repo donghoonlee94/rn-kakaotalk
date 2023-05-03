@@ -1,4 +1,3 @@
-import { Image, Text, View } from "react-native"
 import Margin from "./Margin"
 import styled from 'styled-components/native';
 

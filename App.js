@@ -1,9 +1,8 @@
 import { useState } from 'react';
-import { StyleSheet, Text, View, Image, FlatList } from 'react-native';
+import { StyleSheet, View, FlatList } from 'react-native';
 import { getStatusBarHeight } from 'react-native-iphone-x-helper';
 import { friendProfiles, myProfile } from './src/data';
 import Division from './src/Division';
-import FriendList from './src/FriendList';
 import FriendSection from './src/FriendSection';
 import Header from './src/Header';
 import Margin from './src/Margin';
