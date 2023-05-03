@@ -55,7 +55,7 @@ export default function App() {
     </View>    
   );
 
-  const ListFooterComponent = () => <Margin height={10} />;
+  const ListFooterComponent = () => <Margin height={10} />
 
   return (
     <View style={styles.container}>
