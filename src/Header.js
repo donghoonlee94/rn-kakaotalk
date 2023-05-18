@@ -2,6 +2,7 @@ import React from 'react';
 import { Text, TouchableOpacity, View } from 'react-native';
 import { Ionicons } from '@expo/vector-icons'; 
 
+
 const IconButton = ({ name }) => {
   return (
     <TouchableOpacity style={{ paddingHorizontal: 6 }} hitSlop={{ top: 15, bottom: 15 }}>
@@ -9,6 +10,7 @@ const IconButton = ({ name }) => {
     </TouchableOpacity>
   )
 }
+
 
 const Header = () => {
   return (
